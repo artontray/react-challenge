@@ -3,6 +3,7 @@ import css from "./App.module.css";
 import Sidebar from "./components/Sidebar";
 import NavBarForm from "./components/NavBarForm";
 import Content from "./components/Content";
+import ContentHooks from "./components/ContentHooks";
 import { SearchBar } from "./components/SearchBar";
 
 function App() {
@@ -11,7 +12,7 @@ function App() {
       <NavBarForm />
       <SearchBar />
       <Sidebar />
-      <Content />
+      <ContentHooks />
     </div>
   );
 }
